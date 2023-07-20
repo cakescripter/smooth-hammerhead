@@ -1,17 +1,20 @@
 ## Small Js Projects
 
-### Score Keeper
+## Vue:
+### Small Todo
 
-![Screenshot](ScoreKeeper/ScoreKeeper.png)
+![Screenshot](VueTodo/VueTodo.png)
 
-### TVMaze
+<br>
 
-![Screenshot](TVMaze/TVMaze.png)
+## Vanilla JS:
 
 ### Typicode Todos
 
 ![Screenshot](TypicodeTodos/TypicodeTodos.png)
+### TVMaze
 
-### Vue Small Todo
+![Screenshot](TVMaze/TVMaze.png)
+### Score Keeper
 
-![Screenshot](VueTodo/VueTodo.png)
+![Screenshot](ScoreKeeper/ScoreKeeper.png)
