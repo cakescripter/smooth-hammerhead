@@ -11,3 +11,7 @@
 ### Typicode Todos
 
 ![Screenshot](TypicodeTodos/TypicodeTodos.png)
+
+### Vue Small Todo
+
+![Screenshot](VueTodo/VueTodo.png)
