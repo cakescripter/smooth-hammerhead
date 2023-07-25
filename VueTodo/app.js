@@ -1,13 +1,22 @@
 Vue.createApp({
   data() {
     return {
-      goals: [],
+      todos: [],
       enteredValue: ''
     };
   },
   methods: {
-    addGoal() {
-      this.goals.push(this.enteredValue);
+    addTodo() {
+      if (this.enteredValue != "") {
+        this.todos.push(this.enteredValue);
+        this.enteredValue = ""
+      } else {
+        alert('Type something')
+      }
+
+    },
+    removeTodo(index) {
+      this.todos.splice(index, 1);
     }
   }
 }).mount('#app');

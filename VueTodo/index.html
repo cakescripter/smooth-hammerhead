@@ -11,13 +11,14 @@
 <body>
   <div id="app">
     <div>
-      <label for="goal">Todo</label>
-      <input type="text" id="goal" v-model="enteredValue" />
-      <button v-on:click="addGoal">Add Todo</button>
+      <label for="todo">Todo</label>
+      <input type="text" id="todo" v-model="enteredValue" />
+      <button v-on:click="addTodo">Add Todo</button>
     </div>
     <ul>
-      <li v-for="goal in goals">{{ goal }}</li>
+      <li v-for="(todo, index) in todos" @dblclick="removeTodo(index)">{{ todo }}</li>
     </ul>
+    <p v-if="todos.length > 0">Double click to remove</p>
   </div>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="app.js"></script>
