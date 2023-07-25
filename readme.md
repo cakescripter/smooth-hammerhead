@@ -3,7 +3,7 @@
 ## Vue:
 ### Small Todo
 
-![Screenshot](VueTodo/VueTodo.png)
+![Screenshot2](VueTodo/VueTodo.png)
 
 <br>
 
